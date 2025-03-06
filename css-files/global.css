@@ -1,0 +1,26 @@
+p {
+  margin: 0;
+  padding: 0;
+  font-family: raleway;
+}
+
+body {
+  background-color: hsl(229, 57%, 11%);
+  background-image: url(/image-container/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 120%;
+  bottom: -20rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

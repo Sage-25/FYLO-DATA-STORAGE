@@ -1,0 +1,155 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  align-items: baseline;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
+
+.first-container {
+  background-color: hsl(228, 56%, 26%);
+  padding: 3rem 3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 6rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.fylo-logo {
+  width: 12rem;
+  margin-block-end: 1.5rem;
+}
+
+.icon-container {
+  display: grid;
+  grid-template-columns: 4rem 4rem 4.5rem;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.document-container,
+.folder-container,
+.upload-container {
+  background-color: hsl(229, 57%, 11%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.document-icon {
+  width: 1.5rem;
+  margin-inline-start: 0.3rem;
+}
+
+.folder-icon {
+  width: 2rem;
+}
+
+.upload-icon {
+  width: 2.5rem;
+}
+
+/* this section is meant for the second container */
+.second-container {
+  background-color: hsl(228, 56%, 26%);
+  border: 1rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 9vh;
+}
+
+.header-text {
+  margin-block-end: 1rem;
+}
+
+.header-second-section {
+  color: hsl(243, 100%, 93%);
+}
+
+.header-bold {
+  font-weight: bold;
+  color: white;
+}
+
+/*this is the level indicator*/
+.outer-level {
+  background-color: hsl(229, 57%, 11%);
+  width: 30rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+}
+
+.inner-level {
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width: 25rem;
+  height: 1.1rem;
+  border-radius: 5rem;
+  position: relative;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+
+.smaller-dot {
+  background-color: white;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50rem;
+  position: relative;
+  top: 0.12rem;
+  left: 24rem;
+}
+
+.bottom-text {
+  display: grid;
+  grid-template-columns: 15rem 15rem;
+  margin-block-start: 0.5rem;
+}
+
+.start-gig,
+.end-gig {
+  color: white;
+  font-weight: bold;
+}
+
+.end-gig {
+  text-align: end;
+}
+
+/*this is the third section*/
+.pop-up {
+  display: grid;
+  grid-template-columns: 5rem 5rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+  bottom: 12rem;
+  left: 16rem;
+  width: 10.5rem;
+}
+
+.pop-up::before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: 12rem;
+	right: -8px;
+	bottom: -1.8rem;
+	border: 20px solid;
+	border-color: #ffffff #ffffff transparent transparent;
+}
+
+.pop-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsl(229, 57%, 11%);
+}
+
+.pop-number-pending {
+  font-size: 1rem;
+  font-weight: bold;
+  color: hsl(229, 7%, 55%);
+}
