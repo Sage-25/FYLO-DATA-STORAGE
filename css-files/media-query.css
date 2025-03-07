@@ -43,7 +43,7 @@
 
 @media (max-width: 985px) {
   body {
-    background-image: url(../image-container/bg-mobile.png);
+    background-image: none;
   }
 }
 
